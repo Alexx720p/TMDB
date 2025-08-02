@@ -19,7 +19,7 @@ MOVIE_TYPES = {
 def fetch_movies(movie_type):
     headers = {
         'accept': 'application/json',
-        'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMGYwYWNhOWUwOGFhOTExMDJlZDNjNDcxMjg2NWE5NCIsIm5iZiI6MTc1MzE2NzgxOS44MzUsInN1YiI6IjY4N2YzN2NiZDlkYTE4ZTUxNjhhNTEzOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.uO4iCym7NLWBzDWS5ZxOC63cBNFGllCw1J-OQ08PoUg'
+        'Authorization': 'Bearer -here goes your token-'
     }
     endpoint = MOVIE_TYPES.get(movie_type)
     if not endpoint:
